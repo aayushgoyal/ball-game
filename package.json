@@ -1,0 +1,19 @@
+{
+  "name": "ball-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.36.1"
+  },
+  "scripts": {
+    "start": "npm run webpack",
+    "webpack": "webpack -d --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-cli": "^3.3.6"
+  }
+}

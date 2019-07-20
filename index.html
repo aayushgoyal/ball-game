@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Ball game </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="slider-score-container">
+        <h2 class="score-text" id="score-text"> </h2>
+        <div class="slider">
+            <input type="range" id="speed-input" name="speed" min=".16" max="1.6" value=".16" step=".01" />
+        </div>
+        <label for="speed">Speed</label>
+    </div>
+    <div class="canvas-container">
+        <canvas></canvas>
+    </div>
+</body>
+<script src="./dist/bundle.js"></script>
+
+
+</html>
